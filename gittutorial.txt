@@ -1,0 +1,8 @@
+git config --global user.email "seuemaildogithub"
+git config --global user.name "nome do github"
+
+ADICIONAR TODOS OS ARQUIVOS
+git add .
+
+COMIT
+git comit -m "Primeiro Comit!"

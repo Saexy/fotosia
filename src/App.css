@@ -1,0 +1,50 @@
+/*Folha de Estilo do App*/
+*{
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90vh;/*Viewport Height*/
+    /* A medida vh é 90/100 de altura do dispositivo, ou seja,
+    uma TV de 1080px dá 972px*/
+}
+
+img{
+    width: 150px;
+    border-radius: 75px;
+    margin: 5px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    font-size: 20px;
+    margin: 15px; /*EXTERNA*/
+    padding: 15px; /*INTERNA*/
+    background: #5162FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #FFFFFF;
+    color: #5162FF;
+    border: 1px solid #5162FF;
+}
+
+label,select{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
